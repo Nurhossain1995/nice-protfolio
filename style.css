@@ -1,0 +1,124 @@
+/*Google fonts*/
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+body{
+    margin:0;
+    font-family: 'Montserrat', sans-serif;
+    background-image: linear-gradient(rgb(222, 224, 61),rgb(109, 116, 218));
+}
+.header{
+    display: flex;
+    margin-bottom: 100px;
+    background-color: #007bff;
+}
+.half-width{
+    width:50%;
+    padding-left: 60px;
+    padding-top:30px;
+    margin-left:50px;  
+}
+.link-btn1{
+    text-decoration: none;
+    margin-right:10px;
+    background-image: linear-gradient(rgb(235, 90, 7),rgb(230, 159, 8));
+    border-radius: 10px;
+    color:#fff;
+    font-weight: 700;
+    padding:10px 40px;
+    text-transform: uppercase;
+}
+.link-btn2{
+    text-decoration: none;
+    margin-right:10px;
+    background-image: linear-gradient(rgb(192, 189, 187),rgb(233, 223, 202));
+    border-radius: 10px;
+    color:#000;
+    font-weight: 700;
+    padding:10px 40px;
+    text-transform: uppercase;
+}
+.half-width img{
+    width:80%;
+    border:5px solid red;
+    border-image:linear-gradient(red,cyan);
+    border-image-slice:1;
+}
+.header-one{
+    font-size: 40px;
+    color:chocolate;
+    
+}
+.header-two{
+    font-size: 50px;
+   
+}
+.sk-head{
+    text-align: center;
+    font-size: 50px;
+}
+.skill-content{
+    margin-bottom: 100px;
+    background-color: #a3510e;
+}
+.flexible-content{
+    display: flex;
+}
+.skill-width{
+    width:22%;
+    margin-left: 5%;
+    border-radius: 10px;
+    background-image: linear-gradient(rgb(224, 221, 221),gray);
+    padding:10px;
+    
+
+}
+.skill-width h1{
+    width:70%;
+    height:40%;
+    text-align: center;
+    text-transform: uppercase;
+    border:5px solid rgb(12, 123, 214);
+    border-radius:50%;
+    box-sizing: border-box;
+    padding-left:5px;
+    padding:40px;
+    margin-left:30px;
+
+  
+  
+}
+.skill-width p{
+   text-align: center;
+    
+}
+#last-skill{
+    margin-right:5%;
+}
+span{
+    color:rgba(231, 222, 212, 0.719);
+}
+#next-skill{
+    background-image: linear-gradient(rgba(74, 160, 100, 0.918),rgb(186, 84, 218));
+}
+.up-skill{
+    width:22%;
+    margin-left: 5%;
+    padding:10px;
+    text-align: center;
+    box-shadow:10px 10px 15px 10px rgba(63, 114, 78, 0.918);
+    transition: all  ease-in-out;
+    transition-duration: 2s;
+}
+
+.up-skill:hover{
+    color:rgb(231, 225, 221);
+    font-weight: bold;
+    box-shadow:10px 10px 15px 10px rgba(171, 230, 116, 0.918);
+}
+.foot{
+    text-align: center;
+    color:silver;
+    font-weight: 700;
+    margin-top:20px;
+    background-color: rgb(31, 30, 29);
+    
+}
